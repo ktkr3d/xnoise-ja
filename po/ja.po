@@ -1,0 +1,1280 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: xnoise\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-05 14:20+0100\n"
+"PO-Revision-Date: 2013-03-10 21:58+0900\n"
+"Last-Translator: ktkr3d <ktkr3d@gmail.com>\n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../data/misc/xnoise.desktop.in.in.h:1
+msgid "Xnoise"
+msgstr "Xnoise"
+
+#: ../data/misc/xnoise.desktop.in.in.h:2
+msgid "Media Player"
+msgstr "メディアプレイヤー"
+
+#: ../data/misc/xnoise.desktop.in.in.h:3
+msgid "Organize and play your music and video collections"
+msgstr "Organize and play your music and video collections"
+
+#: ../data/misc/xnoise.desktop.in.in.h:4
+#: ../libxnoise/TrayIcon/xnoise-tray-icon.vala:73
+msgid "Play/Pause"
+msgstr "再生/一時停止"
+
+#: ../data/misc/xnoise.desktop.in.in.h:5
+msgid "Stop"
+msgstr "停止"
+
+#: ../data/misc/xnoise.desktop.in.in.h:6
+msgid "Goto next track"
+msgstr "次のトラック"
+
+#: ../data/misc/xnoise.desktop.in.in.h:7
+msgid "Goto previous track"
+msgstr "前のトラック"
+
+#: ../data/misc/xnoise.desktop.in.in.h:8
+msgid "Quit application"
+msgstr "アプリケーションの終了"
+
+#: ../libxnoise/AlbumImages/xnoise-album-image.vala:77
+msgid "Toggle visibility of album art view"
+msgstr "アルバムアート表示の切り替え"
+
+#: ../libxnoise/AlbumImages/xnoise-album-image.vala:79
+msgid "<Ctrl+B>"
+msgstr "<Ctrl+B>"
+
+#: ../libxnoise/Application/xnoise-application.vala:244 ../src/xnoise.vala:158
+#, c-format
+msgid "Xnoise is a media player for Gtk+."
+msgstr "Xnoise はGtk+ のメディアプレイヤーです."
+
+#: ../libxnoise/Application/xnoise-application.vala:245 ../src/xnoise.vala:159
+msgid "It uses the gstreamer framework."
+msgstr "gstreamer フレームワークを使用しています."
+
+#: ../libxnoise/Application/xnoise-application.vala:246 ../src/xnoise.vala:160
+msgid "More information on the project website:"
+msgstr "プロジェクトのWeb サイトにある追加情報:"
+
+#. the 'no lyrics found...' also appears in the db provider !!
+#: ../libxnoise/Database/xnoise-db-reader.vala:171
+#: ../libxnoise/Lyrics/xnoise-lyrics-loader.vala:177
+#: ../plugins/databaseLyrics/xnoise-database-lyrics.vala:127
+msgid "no lyrics found..."
+msgstr "歌詞が見つかりませんでした..."
+
+#: ../libxnoise/Database/xnoise-db-writer.vala:601
+#, c-format
+msgid "unknown"
+msgstr "不明"
+
+#: ../libxnoise/DBus/xnoise-desktop-notifications.vala:156
+#: ../libxnoise/ExtraWidgets/VideoScreen/xnoise-videoscreen.vala:440
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:1475
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:1503
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:1545
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:1575
+#: ../libxnoise/TrayIcon/xnoise-tray-icon.vala:231
+#: ../plugins/titleToDecoration/xnoise-title-to-decoration.vala:134
+#: ../plugins/titleToDecoration/xnoise-title-to-decoration.vala:157
+#, c-format
+msgid "by"
+msgstr "-"
+
+#: ../libxnoise/DBus/xnoise-desktop-notifications.vala:159
+#: ../libxnoise/ExtraWidgets/VideoScreen/xnoise-videoscreen.vala:442
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:1477
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:1505
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:1547
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:1577
+#: ../libxnoise/TrayIcon/xnoise-tray-icon.vala:233
+#: ../plugins/titleToDecoration/xnoise-title-to-decoration.vala:136
+#: ../plugins/titleToDecoration/xnoise-title-to-decoration.vala:159
+#, c-format
+msgid "on"
+msgstr "-"
+
+#: ../libxnoise/DockableMedia/History/xnoise-dockable-playlist-lastplayed.vala:41
+msgid "Last Played"
+msgstr "最近再生された"
+
+#: ../libxnoise/DockableMedia/MusicBrowser/xnoise-music-browser-dockable.vala:47
+msgid "Music"
+msgstr "音楽"
+
+#: ../libxnoise/DockableMedia/MusicBrowser/xnoise-music-browser.vala:362
+#: ../libxnoise/ExtDev/AudioPlayer/xnoise-audio-player-tree-view.vala:522
+#: ../plugins/magnatune/magnatune-treeview.vala:257
+msgid "Collapse all"
+msgstr "Collapse all"
+
+#: ../libxnoise/DockableMedia/MusicBrowser/xnoise-music-browser.vala:367
+msgid "Sort Mode"
+msgstr "並び替えモード"
+
+#: ../libxnoise/DockableMedia/MusicBrowser/xnoise-music-browser.vala:377
+msgid "ARTIST-ALBUM-TITLE"
+msgstr "アーティスト-アルバム-タイトル"
+
+#: ../libxnoise/DockableMedia/MusicBrowser/xnoise-music-browser.vala:384
+msgid "GENRE-ARTIST-ALBUM"
+msgstr "ジャンル-アーティスト-アルバム"
+
+#: ../libxnoise/DockableMedia/MusicBrowser/xnoise-music-browser-model.vala:534
+#: ../libxnoise/ExtDev/AudioPlayer/xnoise-audio-player-tree-store.vala:412
+#: ../plugins/magnatune/magnatune-treestore.vala:43
+msgid "Loading ..."
+msgstr "ロード中..."
+
+#: ../libxnoise/DockableMedia/MostPlayed/xnoise-dockable-playlist-mostplayed.vala:41
+msgid "Most Played"
+msgstr "最も再生された"
+
+#: ../libxnoise/DockableMedia/StreamListing/xnoise-dockable-streams.vala:41
+msgid "Streams"
+msgstr "ストリーム"
+
+#: ../libxnoise/DockableMedia/VideoListing/xnoise-dockable-videos.vala:41
+msgid "Videos"
+msgstr "ビデオ"
+
+#: ../libxnoise/ExtDev/AndroidPlayer/xnoise-android-item-handler.vala:37
+msgid "Add to Android Device"
+msgstr "Android デバイスに追加"
+
+#: ../libxnoise/ExtDev/AndroidPlayer/xnoise-android-item-handler.vala:39
+#: ../libxnoise/ExtDev/GenericPlayer/xnoise-generic-player-item-handler.vala:40
+msgid "Delete from device"
+msgstr "デバイスから削除"
+
+#: ../libxnoise/ExtDev/AndroidPlayer/xnoise-android-player-main-view.vala:45
+msgid "Android Player Device"
+msgstr "Android プレイヤーデバイス"
+
+#: ../libxnoise/ExtDev/AudioPlayer/xnoise-audio-item-handler.vala:103
+msgid "Do you want to delete the selected file from the device?"
+msgstr "Do you want to delete the selected file from the device?"
+
+#: ../libxnoise/ExtDev/AudioPlayer/xnoise-audio-item-handler.vala:125
+msgid "Do you want to delete the selected album from the device?"
+msgstr "Do you want to delete the selected album from the device?"
+
+#: ../libxnoise/ExtDev/AudioPlayer/xnoise-audio-item-handler.vala:155
+msgid "Do you want to delete the selected artist from the device?"
+msgstr "Do you want to delete the selected artist from the device?"
+
+#: ../libxnoise/ExtDev/AudioPlayer/xnoise-audio-item-handler.vala:235
+#: ../libxnoise/ExtDev/AudioPlayer/xnoise-audio-player-tree-view.vala:112
+#: ../libxnoise/ExtDev/AudioPlayer/xnoise-audio-player-tree-view.vala:341
+msgid "Please wait while moving media to the device."
+msgstr "Please wait while moving media to the device."
+
+#: ../libxnoise/ExtDev/AudioPlayer/xnoise-audio-item-handler.vala:326
+#: ../libxnoise/ExtDev/AudioPlayer/xnoise-audio-player-tree-view.vala:260
+#: ../libxnoise/ExtDev/AudioPlayer/xnoise-audio-player-tree-view.vala:383
+msgid "Not enough space on device! Aborting..."
+msgstr "Not enough space on device! Aborting..."
+
+#: ../libxnoise/ExtDev/AudioPlayer/xnoise-audio-player-main-view.vala:117
+msgid "Free space: "
+msgstr "空き容量: "
+
+#: ../libxnoise/ExtDev/AudioPlayer/xnoise-audio-player-main-view.vala:120
+msgid "Total space: "
+msgstr "全容量: "
+
+#: ../libxnoise/ExtDev/GenericPlayer/xnoise-generic-player-device.vala:97
+msgid "Player"
+msgstr "プレイヤー"
+
+#: ../libxnoise/ExtDev/GenericPlayer/xnoise-generic-player-item-handler.vala:38
+msgid "Add to Player Device"
+msgstr "プレイヤーデバイスに追加"
+
+#: ../libxnoise/ExtDev/GenericPlayer/xnoise-generic-player-main-view.vala:45
+msgid "External Player Device"
+msgstr "外部プレイヤーデバイス"
+
+#: ../libxnoise/ExtraWidgets/AddMedia/xnoise-add-media-widget.vala:155
+msgid "Add or Remove media"
+msgstr "メディアの追加/削除"
+
+#: ../libxnoise/ExtraWidgets/AddMedia/xnoise-add-media-widget.vala:168
+msgid "If selected, all media folders will be fully rescanned"
+msgstr "選択すると、全てのメディアフォルダが再スキャンされます"
+
+#: ../libxnoise/ExtraWidgets/AddMedia/xnoise-add-media-widget.vala:174
+msgid "Add local folder"
+msgstr "ローカルフォルダを追加"
+
+#: ../libxnoise/ExtraWidgets/AddMedia/xnoise-add-media-widget.vala:175
+msgid "Add media stream"
+msgstr "ストリームを追加"
+
+#: ../libxnoise/ExtraWidgets/AddMedia/xnoise-add-media-widget.vala:176
+msgid "Remove"
+msgstr "削除"
+
+#: ../libxnoise/ExtraWidgets/AddMedia/xnoise-add-media-widget.vala:179
+msgid "Do full rescan"
+msgstr "全スキャン"
+
+#: ../libxnoise/ExtraWidgets/AddMedia/xnoise-add-media-widget.vala:180
+msgid ""
+"Select local media folders or internet media streams. \n"
+"All media sources will be available via xnoise's library."
+msgstr ""
+"ローカルメディアフォルダかインターネットメディアストリームを追加してくださ"
+"い。 \n"
+"全てのメディアソースはxnoise のライブラリから利用できます。"
+
+#: ../libxnoise/ExtraWidgets/AddMedia/xnoise-add-media-widget.vala:218
+#: ../libxnoise/ExtraWidgets/xnoise-first-start-widget.vala:189
+msgid "Location"
+msgstr "場所"
+
+#: ../libxnoise/ExtraWidgets/AddMedia/xnoise-add-media-widget.vala:258
+#: ../libxnoise/Utils/xnoise-media-importer.vala:101
+#: ../libxnoise/Utils/xnoise-media-importer.vala:237
+msgid "Importing media data. This may take some time..."
+msgstr "メディア情報を取り込んでいます。少し時間がかかるかもしれません。"
+
+#: ../libxnoise/ExtraWidgets/AddMedia/xnoise-add-media-widget.vala:274
+#: ../libxnoise/ExtraWidgets/xnoise-first-start-widget.vala:70
+msgid "Select media folder"
+msgstr "メディアフォルダの選択"
+
+#: ../libxnoise/ExtraWidgets/AddMedia/xnoise-add-media-widget.vala:350
+msgid "Add internet radio link"
+msgstr "インターネットラジオのリンクを追加"
+
+#: ../libxnoise/ExtraWidgets/Fullscreen/xnoise-fullscreen-toolbar.vala:259
+msgid "Leave fullscreen"
+msgstr "全画面表示を解除"
+
+#: ../libxnoise/ExtraWidgets/Settings/xnoise-settings-widget.vala:322
+msgid "Settings"
+msgstr "設定"
+
+#: ../libxnoise/ExtraWidgets/Settings/xnoise-settings-widget.vala:324
+msgid "Media"
+msgstr "メディア"
+
+#: ../libxnoise/ExtraWidgets/Settings/xnoise-settings-widget.vala:331
+msgid "Grid lines in media browser"
+msgstr "Grid lines in media browser"
+
+#: ../libxnoise/ExtraWidgets/Settings/xnoise-settings-widget.vala:332
+msgid "Showing lines in the media browser might show hierachies more clear"
+msgstr "Showing lines in the media browser might show hierachies more clear"
+
+#: ../libxnoise/ExtraWidgets/Settings/xnoise-settings-widget.vala:336
+msgid "Use systray icon"
+msgstr "システムトレイを使用"
+
+#: ../libxnoise/ExtraWidgets/Settings/xnoise-settings-widget.vala:337
+msgid ""
+"Use a status icon on your panel for showing, hiding and controlling xnoise"
+msgstr "xnoise の表示/非表示、操作のためにパネルアイコンを使用"
+
+#: ../libxnoise/ExtraWidgets/Settings/xnoise-settings-widget.vala:341
+msgid "Use menu button"
+msgstr "メニューボタンの使用"
+
+#: ../libxnoise/ExtraWidgets/Settings/xnoise-settings-widget.vala:342
+msgid "Use an application menu button integrated into the main window"
+msgstr "アプリケーションメニューボタンを使用"
+
+#: ../libxnoise/ExtraWidgets/Settings/xnoise-settings-widget.vala:346
+msgid "Show Stop button"
+msgstr "停止ボタンの表示"
+
+#: ../libxnoise/ExtraWidgets/Settings/xnoise-settings-widget.vala:347
+msgid "Show a stop button along with the other playback control buttons"
+msgstr "Show a stop button along with the other playback control buttons"
+
+#: ../libxnoise/ExtraWidgets/Settings/xnoise-settings-widget.vala:351
+msgid "Quit on window close"
+msgstr "ウィンドウを閉じた時に終了"
+
+#: ../libxnoise/ExtraWidgets/Settings/xnoise-settings-widget.vala:352
+msgid "Quit xnoise if the main window is closed"
+msgstr "メインウィンドウを閉じた時にxnoise を終了"
+
+#: ../libxnoise/ExtraWidgets/Settings/xnoise-settings-widget.vala:356
+msgid "Use desktop notifications"
+msgstr "デスクトップ通知を使用"
+
+#: ../libxnoise/ExtraWidgets/Settings/xnoise-settings-widget.vala:357
+msgid ""
+"Use desktop notifications that inform about played media while the main "
+"window of xnoise is not visible"
+msgstr ""
+"xnoise のメインウィンドウが非表示の時に、再生されたメディアについて通知"
+
+#: ../libxnoise/ExtraWidgets/Settings/xnoise-settings-widget.vala:361
+msgid "Use combo box selector for media types"
+msgstr "メディアタイプの選択にコンボボックスを使用"
+
+#: ../libxnoise/ExtraWidgets/Settings/xnoise-settings-widget.vala:362
+msgid "Use a combo box for selecting media types like music, video or streams"
+msgstr ""
+"音楽、ビデオ、ストリームのようなメディアタイプの選択にコンボボックスを使用"
+
+#: ../libxnoise/ExtraWidgets/Settings/xnoise-settings-widget.vala:374
+msgid "Go Back"
+msgstr "戻る"
+
+#: ../libxnoise/ExtraWidgets/Settings/xnoise-settings-widget.vala:390
+msgid "Media browser fontsize"
+msgstr "メディアブラウザーのフォントサイズ"
+
+#: ../libxnoise/ExtraWidgets/Settings/xnoise-settings-widget.vala:407
+msgid "User Interface:"
+msgstr "ユーザインタフェース:"
+
+#: ../libxnoise/ExtraWidgets/Settings/xnoise-settings-widget.vala:411
+msgid "Lyrics:"
+msgstr "歌詞:"
+
+#: ../libxnoise/ExtraWidgets/Settings/xnoise-settings-widget.vala:415
+msgid "Additional:"
+msgstr "追加:"
+
+#: ../libxnoise/ExtraWidgets/Settings/xnoise-settings-widget.vala:419
+msgid "Music Stores:"
+msgstr "ミュージックストア:"
+
+#: ../libxnoise/ExtraWidgets/VideoScreen/xnoise-videoscreen.vala:65
+msgid "Select external subtitle file"
+msgstr "外部字幕ファイルの選択"
+
+#: ../libxnoise/ExtraWidgets/VideoScreen/xnoise-videoscreen.vala:145
+msgid "No Subtitle"
+msgstr "字幕なし"
+
+#: ../libxnoise/ExtraWidgets/VideoScreen/xnoise-videoscreen.vala:203
+msgid "Leave Fullscreen"
+msgstr "全画面表示の解除"
+
+#: ../libxnoise/ExtraWidgets/VideoScreen/xnoise-videoscreen.vala:203
+msgid "Fullscreen"
+msgstr "全画面表示"
+
+#: ../libxnoise/ExtraWidgets/xnoise-media-source-widget.vala:134
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:2024
+msgid "Search..."
+msgstr "検索..."
+
+#: ../libxnoise/ExtraWidgets/xnoise-media-source-widget.vala:149
+msgid "Media Collections"
+msgstr "メディアコレクション"
+
+#. notebook.margin_top = 2;
+#: ../libxnoise/ExtraWidgets/xnoise-media-source-widget.vala:161
+msgid "Media Source"
+msgstr "メディアソース"
+
+#: ../libxnoise/ExtraWidgets/xnoise-equalizer-widget.vala:214
+msgid "Preset:"
+msgstr "プリセット:"
+
+#: ../libxnoise/ExtraWidgets/xnoise-equalizer-widget.vala:233
+msgid "Volume"
+msgstr "音量"
+
+#: ../libxnoise/ExtraWidgets/xnoise-first-start-widget.vala:116
+msgid "Add Media"
+msgstr "メディアの追加"
+
+#: ../libxnoise/ExtraWidgets/xnoise-first-start-widget.vala:118
+msgid "Skip"
+msgstr "スキップ"
+
+#: ../libxnoise/ExtraWidgets/xnoise-first-start-widget.vala:123
+msgid "Done"
+msgstr "完了"
+
+#: ../libxnoise/ExtraWidgets/xnoise-first-start-widget.vala:131
+msgid "Please wait while media is added to your library!"
+msgstr "メディアがライブラリに追加されるのをお待ちください!"
+
+#: ../libxnoise/ExtraWidgets/xnoise-first-start-widget.vala:132
+#, c-format
+msgid "You can start listening to your music by selecting '%s'"
+msgstr "You can start listening to your music by selecting '%s'"
+
+#: ../libxnoise/ExtraWidgets/xnoise-first-start-widget.vala:138
+msgid "Add more media folders"
+msgstr "メディアフォルダの追加"
+
+#: ../libxnoise/ExtraWidgets/xnoise-first-start-widget.vala:161
+msgid "Media Folders:"
+msgstr "メディアフォルダー:"
+
+#: ../libxnoise/ExtraWidgets/xnoise-first-start-widget.vala:199
+msgid "Welcome to Xnoise!\n"
+msgstr "Xnoise へようこそ!\n"
+
+#: ../libxnoise/ExtraWidgets/xnoise-first-start-widget.vala:201
+msgid "This is the first time you start xnoise."
+msgstr "xnoise の初回起動です。"
+
+#: ../libxnoise/ExtraWidgets/xnoise-first-start-widget.vala:203
+msgid "Do you want to import media into your library?"
+msgstr "ライブラリにメディアをインポートしますか?"
+
+#: ../libxnoise/ItemHandlers/AddAllToTracklist/xnoise-handler-add-all-to-tracklist.vala:41
+msgid "Add all tracks to tracklist"
+msgstr "全てのトラックをトラックリストに追加"
+
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-tag-artist-editor.vala:62
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-tag-artist-editor.vala:66
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-tag-artist-editor.vala:128
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-tag-album-editor.vala:73
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-tag-album-editor.vala:77
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-tag-album-editor.vala:167
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-tag-title-editor.vala:143
+msgid ""
+"With this dialog you can change the metatags in the according files. \n"
+"Handle with care!"
+msgstr ""
+"With this dialog you can change the metatags in the according files. \n"
+"Handle with care!"
+
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-tag-artist-editor.vala:136
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-tag-title-editor.vala:185
+msgid "xnoise - Edit metadata"
+msgstr "xnoise - Edit metadata"
+
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-tag-artist-editor.vala:139
+msgid "Type new artist name."
+msgstr "新しいアーティスト名を入力してください。"
+
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-tag-artist-editor.vala:140
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-tag-album-editor.vala:181
+msgid "Artist:"
+msgstr "アーティスト:"
+
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-tag-artist-editor.vala:143
+msgid "Type new album name."
+msgstr "新しいアルバム名を入力してください。"
+
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-tag-artist-editor.vala:144
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-tag-album-editor.vala:182
+msgid "Album:"
+msgstr "アルバム:"
+
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-tag-artist-editor.vala:163
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-tag-album-editor.vala:203
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-tag-title-editor.vala:200
+msgid ""
+"Please wait while filling media browser. Or cancel, if you do not want to "
+"wait."
+msgstr ""
+"Please wait while filling media browser. Or cancel, if you do not want to "
+"wait."
+
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-tag-artist-editor.vala:167
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-tag-album-editor.vala:207
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-tag-title-editor.vala:204
+msgid ""
+"Please wait while importing media. Or cancel, if you do not want to wait."
+msgstr ""
+"Please wait while importing media. Or cancel, if you do not want to wait."
+
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-tag-album-editor.vala:177
+msgid "Album data"
+msgstr "アルバムデータ"
+
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-tag-album-editor.vala:180
+msgid "Please enter new album data."
+msgstr "アルバムデータを入力してください."
+
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-tag-album-editor.vala:183
+msgid "Year:"
+msgstr "年:"
+
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-tag-album-editor.vala:184
+msgid "Genre:"
+msgstr "ジャンル:"
+
+#. ARTIST
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-tag-title-editor.vala:146
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:2034
+#: ../libxnoise/TrackList/xnoise-tracklist.vala:1251
+#: ../libxnoise/TrackList/xnoise-tracklist.vala:1381
+msgid "Artist"
+msgstr "アーティスト"
+
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-tag-title-editor.vala:149
+msgid "Album Artist"
+msgstr "アルバムアーティスト"
+
+#. ALBUM
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-tag-title-editor.vala:152
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:2035
+#: ../libxnoise/TrackList/xnoise-tracklist.vala:1227
+#: ../libxnoise/TrackList/xnoise-tracklist.vala:1390
+msgid "Album"
+msgstr "アルバム"
+
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-tag-title-editor.vala:155
+#: ../libxnoise/TrackList/xnoise-tracklist.vala:1203
+msgid "Title"
+msgstr "タイトル"
+
+#. GENRE
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-tag-title-editor.vala:158
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:2036
+#: ../libxnoise/TrackList/xnoise-tracklist.vala:1297
+#: ../libxnoise/TrackList/xnoise-tracklist.vala:1399
+msgid "Genre"
+msgstr "ジャンル"
+
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-tag-title-editor.vala:161
+msgid "Uri"
+msgstr "Uri"
+
+#. YEAR
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-tag-title-editor.vala:164
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:2037
+#: ../libxnoise/TrackList/xnoise-tracklist.vala:1321
+#: ../libxnoise/TrackList/xnoise-tracklist.vala:1408
+msgid "Year"
+msgstr "年"
+
+#. TRACKNUMBER
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-tag-title-editor.vala:167
+#: ../libxnoise/TrackList/xnoise-tracklist.vala:1372
+msgid "Tracknumber"
+msgstr "トラック番号"
+
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-handler-edit-tags.vala:35
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-handler-edit-tags.vala:39
+msgid "Edit data for track"
+msgstr "トラック情報の編集"
+
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-handler-edit-tags.vala:43
+msgid "Change album data"
+msgstr "アルバム情報の変更"
+
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-handler-edit-tags.vala:47
+msgid "Change artist data"
+msgstr "アーティスト情報の変更"
+
+#: ../libxnoise/ItemHandlers/EditTags/xnoise-handler-edit-tags.vala:51
+msgid "Change genre name"
+msgstr "ジャンル名の変更"
+
+#: ../libxnoise/ItemHandlers/AddToTracklist/xnoise-handler-add-to-tracklist.vala:50
+#: ../libxnoise/ItemHandlers/AddToTracklist/xnoise-handler-add-to-tracklist.vala:55
+msgid "Add to tracklist"
+msgstr "トラックリストに追加"
+
+#: ../libxnoise/ItemHandlers/MoveToTrash/xnoise-handler-move-to-trash.vala:41
+msgid "Move to trash"
+msgstr "ゴミ箱へ移動"
+
+#: ../libxnoise/ItemHandlers/MoveToTrash/xnoise-handler-move-to-trash.vala:87
+msgid "Do you want to move the selected file to trash?"
+msgstr "Do you want to move the selected file to trash?"
+
+#: ../libxnoise/ItemHandlers/RemoveCover/xnoise-handler-remove-cover.vala:40
+msgid "Remove Cover Image"
+msgstr "カバー画像の削除"
+
+#: ../libxnoise/ItemHandlers/PlayItem/xnoise-handler-play-item.vala:35
+msgid "Play"
+msgstr "再生"
+
+#: ../libxnoise/ItemHandlers/RemoveTrack/xnoise-handler-remove-track.vala:35
+msgid "Remove selected track"
+msgstr "選択したトラックの削除"
+
+#: ../libxnoise/ItemHandlers/ShowInFilemanager/xnoise-handler-show-in-file-manager.vala:35
+#: ../libxnoise/ItemHandlers/ShowInFilemanager/xnoise-handler-show-in-file-manager.vala:39
+msgid "Show in parent folder"
+msgstr "親フォルダを開く"
+
+#: ../libxnoise/Lyrics/xnoise-lyrics-view.vala:99
+#: ../libxnoise/Lyrics/xnoise-lyrics-view.vala:154
+msgid "Insufficient track information. Not searching for lyrics."
+msgstr "Insufficient track information. Not searching for lyrics."
+
+#: ../libxnoise/Lyrics/xnoise-lyrics-view.vala:127
+#: ../libxnoise/Lyrics/xnoise-lyrics-view.vala:143
+msgid "Player stopped. Not searching for lyrics."
+msgstr "Player stopped. Not searching for lyrics."
+
+#. Gtk.TextIter start_iter;
+#. Gtk.TextIter end_iter;
+#. textbuffer.get_start_iter (out start_iter);
+#. textbuffer.get_start_iter (out end_iter);
+#. string txt = textbuffer.get_text(start_iter, end_iter, true);
+#. TODO: Howto append text ?
+#: ../libxnoise/Lyrics/xnoise-lyrics-view.vala:179
+#, c-format
+msgid ""
+"\n"
+"Trying to find lyrics for \"%s\" by \"%s\"\n"
+"\n"
+"Using %s ..."
+msgstr ""
+"\n"
+"Trying to find lyrics for \"%s\" by \"%s\"\n"
+"\n"
+"Using %s ..."
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:222
+msgid "_File"
+msgstr "ファイル(_F)"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:223
+msgid "open file"
+msgstr "ファイルを開く"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:224
+msgid "Open _Stream"
+msgstr "ストリームを開く(_S)"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:224
+msgid "open remote location"
+msgstr "open remote location"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:225
+msgid "_Add or Remove media"
+msgstr "メディアの追加と削除(_A)"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:225
+msgid "manage the content of the xnoise media library"
+msgstr "manage the content of the xnoise media library"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:227
+msgid "_Edit"
+msgstr "編集(_E)"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:228
+msgid "C_lear tracklist"
+msgstr "トラックリストのクリア(_L)"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:228
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:1778
+msgid "Clear the tracklist"
+msgstr "トラックリストのクリア"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:229
+msgid "_Rescan collection"
+msgstr "コレクションの再スキャン(_R)"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:229
+msgid "Rescan collection"
+msgstr "コレクションの再スキャン"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:230
+msgid "_Increase volume"
+msgstr "音量を上げる(_I)"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:230
+msgid "Increase playback volume"
+msgstr "再生音量を上げる"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:231
+msgid "_Decrease volume"
+msgstr "音量を下げる(_D)"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:231
+msgid "Decrease playback volume"
+msgstr "音量を下げる"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:232
+msgid "_Previous track"
+msgstr "前のトラック(_P)"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:232
+msgid "Go to previous track"
+msgstr "前のトラックへ移動"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:233
+msgid "_Toggle play"
+msgstr "再生/一時停止(_T)"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:233
+msgid "Toggle playback status"
+msgstr "再生/一時停止の切り替え"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:234
+msgid "_Next track"
+msgstr "次のトラック(_N)"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:234
+msgid "Go to next track"
+msgstr "次のトラックへ移動"
+
+#. icon
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:235
+msgid "E_qualizer"
+msgstr "イコライザ(_Q)"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:235
+msgid "Open equalizer window"
+msgstr "イコライザを表示"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:237
+msgid "_View"
+msgstr "表示(_V)"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:238
+msgid "_Tracklist"
+msgstr "トラックリスト(_T)"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:238
+msgid "Go to the tracklist."
+msgstr "トラックリストへ移動."
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:239
+msgid "_Lyrics"
+msgstr "歌詞(_L)"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:239
+msgid "Go to the lyrics view."
+msgstr "歌詞表示へ移動."
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:240
+msgid "_Now Playing"
+msgstr "再生中(_N)"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:241
+msgid "Go to the 'Now Playing' screen in the main window."
+msgstr "Go to the 'Now Playing' screen in the main window."
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:242
+msgid "_Help"
+msgstr "ヘルプ(_H)"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:244
+msgid "_Frequently Asked Questions"
+msgstr "よくある質問(_F)"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:244
+msgid "_Open Frequently Asked Questions in web browser"
+msgstr "よくある質問をブラウザで表示(_O)"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:245
+msgid "_Keyboard Shortcuts"
+msgstr "キーボードのショートカット（_K）"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:245
+msgid "_Open Keyboard Shortcuts in web browser"
+msgstr "キーボードショートカットをブラウザで表示(_O)"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:246
+msgid "_Config"
+msgstr "設定（_C）"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:304
+msgid "_Show Media Browser"
+msgstr "メディアブラウザを表示(_S)"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:313
+msgid "Show _Video Fullscreen"
+msgstr "全画面表示(_V)"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:322
+msgid "Show _Album Art view"
+msgstr "アルバムアート表示(_A)"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:514
+#, c-format
+msgid ""
+"Restoring %u tracks in the tracklist. This is a large number and can make "
+"startup of xnoise slower."
+msgstr ""
+"Restoring %u tracks in the tracklist. This is a large number and can make "
+"startup of xnoise slower."
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:716
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:728
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:740
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:752
+msgid "Playback mode: "
+msgstr "プレイバックモード: "
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:716
+msgid "No repeat, one after another"
+msgstr "No repeat, one after another"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:728
+msgid "Repeat single track"
+msgstr "1トラックをリピート"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:740
+msgid "Repeat all"
+msgstr "全トラックをリピート"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:752
+msgid "Random playlist track playing"
+msgstr "Random playlist track playing"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:1342
+msgid "Enter the URL for playing"
+msgstr "URL の入力"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:1367
+msgid "Equalizer"
+msgstr "イコライザ"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:1391
+msgid "Select media file"
+msgstr "メディアファイルの選択"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:1730
+msgid "Repeat Mode"
+msgstr "リピートモード"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:1752
+msgid "Remove selected tracks"
+msgstr "選択したトラックを削除"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:1803
+msgid "Jump to current position"
+msgstr "現在の位置へ移動"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:1922
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:2020
+msgid "Select search with <Ctrl-F>"
+msgstr "<Ctrl-F> で検索を選択"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:1924
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:2022
+msgid "Remove search filter with <Ctrl-D>"
+msgstr "<Ctrl-D> で検索フィルタを削除"
+
+#. AppMenuButton for compact layout
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:1946
+msgid "Show application main menu"
+msgstr "アプリケーションのメインメニューを表示"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:2043
+msgid "Ascending"
+msgstr "昇順"
+
+#: ../libxnoise/MainWindow/xnoise-main-window.vala:2045
+msgid "Descending"
+msgstr "降順"
+
+#: ../libxnoise/Player/xnoise-gst-equalizer.vala:160
+msgid "Dance"
+msgstr "ダンス"
+
+#: ../libxnoise/Player/xnoise-gst-equalizer.vala:165
+msgid "Pop"
+msgstr "ポップ"
+
+#: ../libxnoise/Player/xnoise-gst-equalizer.vala:170
+msgid "Techno"
+msgstr "テクノ"
+
+#: ../libxnoise/Player/xnoise-gst-equalizer.vala:175
+msgid "Club"
+msgstr "クラブ"
+
+#: ../libxnoise/Player/xnoise-gst-equalizer.vala:180
+msgid "Jazz"
+msgstr "ジャズ"
+
+#: ../libxnoise/Player/xnoise-gst-equalizer.vala:185
+msgid "Rock"
+msgstr "ロック"
+
+#: ../libxnoise/Player/xnoise-gst-equalizer.vala:190
+msgid "Maximum Treble"
+msgstr "高音を最大化"
+
+#: ../libxnoise/Player/xnoise-gst-equalizer.vala:195
+msgid "Maximum Bass"
+msgstr "低音を最大化"
+
+#: ../libxnoise/Player/xnoise-gst-equalizer.vala:200
+msgid "Classic"
+msgstr "クラシック"
+
+#: ../libxnoise/Player/xnoise-gst-equalizer.vala:206
+msgid "Custom"
+msgstr "カスタム"
+
+#: ../libxnoise/Player/xnoise-gst-equalizer.vala:212
+msgid "Default"
+msgstr "デフォルト"
+
+#: ../libxnoise/Player/xnoise-gst-player.vala:229
+msgid ""
+"The subtitle name is not matching the video name! Not using subtitle file."
+msgstr ""
+"The subtitle name is not matching the video name! Not using subtitle file."
+
+#: ../libxnoise/Player/xnoise-gst-player.vala:747
+#, c-format
+msgid "Success on installing missing gstreamer plugin"
+msgstr "Success on installing missing gstreamer plugin"
+
+#: ../libxnoise/Player/xnoise-gst-player.vala:751
+#, c-format
+msgid "User aborted installation of missing gstreamer plugin"
+msgstr "User aborted installation of missing gstreamer plugin"
+
+#: ../libxnoise/Player/xnoise-gst-player.vala:755
+#, c-format
+msgid "Gstreamer plugin not found in repositories"
+msgstr "Gstreamer plugin not found in repositories"
+
+#: ../libxnoise/Player/xnoise-gst-player.vala:761
+#, c-format
+msgid "Critical error while installation of missing gstreamer plugin"
+msgstr "Critical error while installation of missing gstreamer plugin"
+
+#: ../libxnoise/Player/xnoise-gst-player.vala:806
+#: ../libxnoise/Player/xnoise-gst-player.vala:817
+#: ../libxnoise/Player/xnoise-gst-player.vala:830
+#, c-format
+msgid "Missing gstreamer plugin"
+msgstr "Missing gstreamer plugin"
+
+#: ../libxnoise/Player/xnoise-gst-player.vala:808
+msgid "Automatic missing codec installation not supported"
+msgstr "コーデックの自動インストールはサポートされていません"
+
+#: ../libxnoise/Player/xnoise-gst-player.vala:819
+msgid "Failed to start automatic gstreamer plugin installation."
+msgstr "Failed to start automatic gstreamer plugin installation."
+
+#: ../libxnoise/Player/xnoise-gst-player.vala:832
+msgid "Trying to install missing gstreamer plugin"
+msgstr "Trying to install missing gstreamer plugin"
+
+#: ../libxnoise/Player/xnoise-gst-player.vala:932
+msgid "Subtitle #"
+msgstr "字幕 #"
+
+#: ../libxnoise/Player/xnoise-gst-player.vala:944
+msgid "Audio Track #"
+msgstr "オーディオトラック #"
+
+#: ../libxnoise/PluginModule/xnoise-plugin-switch-widget.vala:98
+msgid "(Plugin)"
+msgstr "(プラグイン)"
+
+#: ../libxnoise/Resources/xnoise-resources.vala:56
+msgid "unknown artist"
+msgstr "不明なアーティスト"
+
+#: ../libxnoise/Resources/xnoise-resources.vala:57
+msgid "unknown title"
+msgstr "不明なタイトル"
+
+#: ../libxnoise/Resources/xnoise-resources.vala:58
+msgid "unknown album"
+msgstr "不明なアルバム"
+
+#: ../libxnoise/Resources/xnoise-resources.vala:60
+msgid "Now Playing"
+msgstr "再生中"
+
+#: ../libxnoise/Resources/xnoise-resources.vala:61
+msgid "Tracklist"
+msgstr "トラックリスト"
+
+#: ../libxnoise/Resources/xnoise-resources.vala:62
+msgid "Lyrics"
+msgstr "歌詞"
+
+#: ../libxnoise/Resources/xnoise-resources.vala:63
+msgid "Hide Media Library"
+msgstr "メディアライブラリを非表示"
+
+#: ../libxnoise/Resources/xnoise-resources.vala:64
+msgid "Show Media Library"
+msgstr "メディアライブラリを表示"
+
+#. LENGTH
+#: ../libxnoise/TrackList/xnoise-tracklist.vala:1273
+#: ../libxnoise/TrackList/xnoise-tracklist.vala:1417
+msgid "Length"
+msgstr "長さ"
+
+#: ../libxnoise/TrayIcon/xnoise-tray-icon.vala:87
+msgid "Previous"
+msgstr "前"
+
+#: ../libxnoise/TrayIcon/xnoise-tray-icon.vala:102
+msgid "Next"
+msgstr "次"
+
+#: ../libxnoise/TrayIcon/xnoise-tray-icon.vala:120
+msgid "Exit"
+msgstr "終了"
+
+#: ../libxnoise/TrayIcon/xnoise-tray-icon.vala:169
+#: ../libxnoise/TrayIcon/xnoise-tray-icon.vala:181
+msgid "stopped"
+msgstr "停止中"
+
+#: ../libxnoise/TrayIcon/xnoise-tray-icon.vala:173
+msgid "playing"
+msgstr "再生中"
+
+#: ../libxnoise/TrayIcon/xnoise-tray-icon.vala:177
+msgid "paused"
+msgstr "一時停止中"
+
+#: ../libxnoise/TrayIcon/xnoise-tray-icon.vala:189
+#, c-format
+msgid "ready to rock"
+msgstr "ready to rock"
+
+#: ../libxnoise/Utils/xnoise-media-importer.vala:358
+#, c-format
+msgid "Found %u tracks. Updating library ..."
+msgstr "Found %u tracks. Updating library ..."
+
+#: ../libxnoise/Utils/xnoise-media-importer.vala:574
+#, c-format
+msgid "%u new tracks found"
+msgstr "%u new tracks found"
+
+#: ../src/xnoise.vala:169
+msgid ""
+"Run 'xnoise --help' to see a full list of available command line options.\n"
+msgstr ""
+"Run 'xnoise --help' to see a full list of available command line options.\n"
+
+#: ../plugins/databaseLyrics/DatabaseLyrics.xnplugin.desktop.in.h:1
+msgid "Database buffer for lyrics"
+msgstr "Database buffer for lyrics"
+
+#: ../plugins/databaseLyrics/DatabaseLyrics.xnplugin.desktop.in.h:2
+msgid "Buffer lyrics in database"
+msgstr "Buffer lyrics in database"
+
+#: ../plugins/lastfm/xnoise-lastfm.vala:401
+#: ../plugins/lastfm/xnoise-lastfm.vala:523
+#, c-format
+msgid "User logged in!"
+msgstr "ログインしました!"
+
+#. feedback
+#: ../plugins/lastfm/xnoise-lastfm.vala:405
+#: ../plugins/lastfm/xnoise-lastfm.vala:521
+#: ../plugins/lastfm/xnoise-lastfm.vala:526
+#, c-format
+msgid "User not logged in!"
+msgstr "ログインしていません!"
+
+#: ../plugins/lastfm/xnoise-lastfm.vala:466
+msgid "Visit LastFm for an account."
+msgstr "LastFm アカウントの作成."
+
+#: ../plugins/lastfm/xnoise-lastfm.vala:475
+#, c-format
+msgid "Please enter your lastfm username and password."
+msgstr "lastfm のユーザ名とパスワードを入力してください."
+
+#: ../plugins/lastfm/xnoise-lastfm.vala:484
+#: ../plugins/magnatune/magnatune.vala:257
+#, c-format
+msgid "Username:"
+msgstr "ユーザ名:"
+
+#: ../plugins/lastfm/xnoise-lastfm.vala:493
+#: ../plugins/magnatune/magnatune.vala:266
+#, c-format
+msgid "Password:"
+msgstr "パスワード:"
+
+#: ../plugins/lastfm/xnoise-lastfm.vala:510
+msgid "Scrobble played tracks on lastfm (Send song data to create statistis)"
+msgstr "Scrobble played tracks on lastfm (Send song data to create statistis)"
+
+#: ../plugins/testplugin/xnoisetest.xnplugin.desktop.in.h:1
+msgid "Basic Demo Plugin for Developers"
+msgstr "Basic Demo Plugin for Developers"
+
+#: ../plugins/testplugin/xnoisetest.xnplugin.desktop.in.h:2
+msgid "Demo plugin for xnoise"
+msgstr "Demo plugin for xnoise"
+
+#: ../plugins/chartlyrics/chartlyrics.xnplugin.desktop.in.h:1
+msgid "Chartlyrics"
+msgstr "Chartlyrics"
+
+#: ../plugins/chartlyrics/chartlyrics.xnplugin.desktop.in.h:2
+msgid "Load lyrics from chartlyrics.com"
+msgstr "chartlyrics.com から歌詞を取得"
+
+#: ../plugins/lastfm/lastfm.xnplugin.desktop.in.h:1
+msgid "LastFm web service integration"
+msgstr "LastFm web service integration"
+
+#: ../plugins/lastfm/lastfm.xnplugin.desktop.in.h:2
+msgid "Use lastfm's web services"
+msgstr "Last.fm のWeb サービスを使用"
+
+#: ../plugins/lyricwiki/Lyricwiki.xnplugin.desktop.in.h:1
+msgid "Lyricwiki"
+msgstr "Lyricwiki"
+
+#: ../plugins/lyricwiki/Lyricwiki.xnplugin.desktop.in.h:2
+msgid "Load lyrics from http://www.lyricwiki.com"
+msgstr "http://www.lyricwiki.com から歌詞を取得"
+
+#: ../plugins/azlyrics/azlyrics.xnplugin.desktop.in.h:1
+msgid "Azlyrics"
+msgstr "Azlyrics"
+
+#: ../plugins/azlyrics/azlyrics.xnplugin.desktop.in.h:2
+msgid "Load lyrics from azlyrics.com"
+msgstr "azlyrics.com から歌詞を取得"
+
+#: ../plugins/app_indicator/xnoise-app-indicator.xnplugin.desktop.in.h:1
+msgid "AppIndicator plugin"
+msgstr "AppIndicator プラグイン"
+
+#: ../plugins/app_indicator/xnoise-app-indicator.xnplugin.desktop.in.h:2
+msgid "Ubuntu Application Indicator plugin for xnoise"
+msgstr "xnoise 用のUbuntu Application Indicator プラグイン"
+
+#: ../plugins/mediakeys/mediakeys.xnplugin.desktop.in.h:1
+msgid "Media Control Keys"
+msgstr "メディアコントロールキー"
+
+#: ../plugins/mediakeys/mediakeys.xnplugin.desktop.in.h:2
+msgid "Control xnoise using mediakeys"
+msgstr "Control xnoise using mediakeys"
+
+#: ../plugins/magnatune/Magnatune.xnplugin.desktop.in.h:1
+msgid "Magnatune Music Subscription"
+msgstr "Magnatune Music Subscription"
+
+#: ../plugins/magnatune/Magnatune.xnplugin.desktop.in.h:2
+msgid "Magnatune Music Store"
+msgstr "Magnatune ミュージックストア"
+
+#: ../plugins/magnatune/magnatune-dockable.vala:57
+#: ../plugins/magnatune/magnatune.vala:216
+msgid "Magnatune"
+msgstr "Magnatune"
+
+#: ../plugins/magnatune/magnatune-treeview.vala:266
+msgid "Download whole album to disk"
+msgstr "Download whole album to disk"
+
+#: ../plugins/magnatune/magnatune-treeview.vala:316
+msgid "Downloading album "
+msgstr "Downloading album "
+
+#: ../plugins/magnatune/magnatune-treeview.vala:318
+msgid "This may take some time..."
+msgstr "This may take some time..."
+
+#: ../plugins/magnatune/magnatune-treeview.vala:432
+msgid "Download finished for \""
+msgstr "Download finished for \""
+
+#: ../plugins/magnatune/magnatune-widget.vala:234
+msgid "download finished..."
+msgstr "download finished..."
+
+#: ../plugins/magnatune/magnatune-widget.vala:238
+msgid "decompressing..."
+msgstr "decompressing..."
+
+#: ../plugins/magnatune/magnatune-widget.vala:292
+msgid "decompressing finished..."
+msgstr "展開が終了しました..."
+
+#: ../plugins/magnatune/magnatune-widget.vala:313
+msgid ""
+"Please wait while\n"
+"converting database."
+msgstr ""
+"Please wait while\n"
+"converting database."
+
+#: ../plugins/magnatune/magnatune-widget.vala:360
+#, c-format
+msgid ""
+"Please wait while\n"
+"converting database.\n"
+"Done for %d tracks."
+msgstr ""
+"Please wait while\n"
+"converting database.\n"
+"Done for %d tracks."
+
+#: ../plugins/magnatune/magnatune-widget.vala:380
+msgid "loading..."
+msgstr "loading..."
+
+#: ../plugins/magnatune/magnatune.vala:173
+msgid "Username and Password available"
+msgstr "Username and Password available"
+
+#: ../plugins/magnatune/magnatune.vala:174
+msgid "Username or Password not available"
+msgstr "Username or Password not available"
+
+#: ../plugins/magnatune/magnatune.vala:236
+msgid "Visit Magnatune for an account."
+msgstr "Visit Magnatune for an account."
+
+#: ../plugins/magnatune/magnatune.vala:247
+#, c-format
+msgid "Please enter your Magnatune username and password."
+msgstr "Magnatune のユーザ名とパスワードを入力してください."
+
+#: ../plugins/mpris/mpris.xnplugin.desktop.in.h:1
+msgid "Mpris v2 Dbus Service"
+msgstr "Mpris v2 Dbus Service"
+
+#: ../plugins/mpris/mpris.xnplugin.desktop.in.h:2
+msgid "Control xnoise with a MPRIS v2 dbus interface"
+msgstr "Control xnoise with a MPRIS v2 dbus interface"
+
+#: ../plugins/mpris_one/mpris_one.xnplugin.desktop.in.h:1
+msgid "Mpris v1 Dbus Service"
+msgstr "Mpris v1 Dbus Service"
+
+#: ../plugins/mpris_one/mpris_one.xnplugin.desktop.in.h:2
+msgid "Control xnoise with a MPRIS v1 dbus interface"
+msgstr "Control xnoise with a MPRIS v1 dbus interface"
+
+#: ../plugins/soundmenu2/soundmenu2.xnplugin.desktop.in.h:1
+msgid "Ubuntu Soundmenu Integration"
+msgstr "Ubuntu Soundmenu Integration"
+
+#: ../plugins/soundmenu2/soundmenu2.xnplugin.desktop.in.h:2
+msgid "Use ubuntu/ayatana soundmenu integration"
+msgstr "Use ubuntu/ayatana soundmenu integration"
+
+#: ../plugins/titleToDecoration/TitleToDecoration.xnplugin.desktop.in.h:1
+msgid "Show song title in window bar"
+msgstr "ウィンドウバーに曲名を表示"
+
+#: ../plugins/titleToDecoration/TitleToDecoration.xnplugin.desktop.in.h:2
+msgid "Set the window name to the current title"
+msgstr "ウィンドウ名に現在の曲名を設定"
+
+#, fuzzy
+#~ msgid "no repeat"
+#~ msgstr "繰り返すものがありません"
