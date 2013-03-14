@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xnoise\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-05 14:20+0100\n"
-"PO-Revision-Date: 2013-03-10 21:58+0900\n"
+"PO-Revision-Date: 2013-03-14 21:19+0900\n"
 "Last-Translator: ktkr3d <ktkr3d@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -589,7 +589,7 @@ msgstr "ゴミ箱へ移動"
 
 #: ../libxnoise/ItemHandlers/MoveToTrash/xnoise-handler-move-to-trash.vala:87
 msgid "Do you want to move the selected file to trash?"
-msgstr "Do you want to move the selected file to trash?"
+msgstr "選択したファイルをゴミ箱に移動しますか?"
 
 #: ../libxnoise/ItemHandlers/RemoveCover/xnoise-handler-remove-cover.vala:40
 msgid "Remove Cover Image"
@@ -937,7 +937,7 @@ msgstr "User aborted installation of missing gstreamer plugin"
 #: ../libxnoise/Player/xnoise-gst-player.vala:755
 #, c-format
 msgid "Gstreamer plugin not found in repositories"
-msgstr "Gstreamer plugin not found in repositories"
+msgstr "Gstreamer プラグインがリポジトリに見つかりませんでした"
 
 #: ../libxnoise/Player/xnoise-gst-player.vala:761
 #, c-format
